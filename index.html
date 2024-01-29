@@ -1,72 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <title>Document</title>
-</head>
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-      <h1>Holiday Maker</h1>
-    </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: lightblue;
+      }
 
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item" href="#">
-        Home
+      h1 {
+        font-size: 60px;
+        font-family: Cursive;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://bulma.io">
+        <h1>Holiday Maker</h1>
       </a>
 
-      <a class="navbar-item" href="countries/index.html">
-      Countries
+      <a
+        role="button"
+        class="navbar-burger"
+        aria-label="menu"
+        aria-expanded="false"
+        data-target="navbarBasicExample"
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
       </a>
+    </div>
 
-      <a class="navbar-item">
-        Top 10 Countries
-        </a>
-        
-      <a class="navbar-item">
-          Map of the world 
-          </a>
-        
-      <a class="navbar-item">
-          Discounts
-          </a>
-      
-      <a class="navbar-item">
-          Contact Us
-          </a>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="index.html"> Home </a>
 
-      <a class="navbar-item">
-           Membership
-          </a>
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More
-        </a>
+        <a class="navbar-item"> Map of the world </a>
 
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About
-          </a>
-          <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
+        <a class="navbar-item" href="contact.html"> Contact Us </a>
+
+        <a class="navbar-item"> Membership </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link"> More </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item"> About </a>
+            <a class="navbar-item"> Jobs </a>
+            <a class="navbar-item"> Contact </a>
+            <hr class="navbar-divider" />
+            <a class="navbar-item"> Report an issue </a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <input class="input" type="text" placeholder="Search" />
+          <a href="countries.html">
+            <button class="button is-primary">
+              <span class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </span>
+            </button>
           </a>
         </div>
       </div>
@@ -96,21 +100,73 @@
     </div>
   </div>
 </nav>
-<div class="has-background-warning">
 <body>
 
-</body>
-<figure class="image is-16by9">
-  <iframe class="has-ratio" width="160" height="90" src="https://www.youtube.com/embed/exI_hD_4jAM?si=ryeg3riwmXB3TiSI" frameborder="0" allowfullscreen></iframe>
-</figure>
-<footer class="footer">
-  <div class="content has-text-centered">
-    <p>
-      <strong>Terms and Conditions</strong>
-    </p>
-    <p> 
-      <strong>Phone: 083 578 0278</strong>
-    </p>
-  </div>
-</footer>
+  <body>
+    <br />
+
+    <br />
+    <br />
+    <br />
+    <div class="columns">
+      <a class="column" href="countries.html">Countries</a>
+      <a class="column">Top 10 Countries to visit</a>
+      <a class="column" href="regions.html">Regions</a>
+      <a class="column">Discount </a>
+      <a class="column">Sort your Trip by Finance</a>
+      <a class="column">See comments here</a>
+    </div>
+
+    <div class="tabs is-centered is-boxed is-medium">
+      <ul>
+        <li class="is-active">
+          <br />
+          <br />
+          <br />
+          <a>
+            <span class="icon is-small"
+              ><i class="fas fa-image" aria-hidden="true"></i
+            ></span>
+            <span>Pictures</span>
+          </a>
+        </li>
+
+        <li>
+          <br />
+          <br />
+          <br />
+          <a>
+            <span class="icon is-small"
+              ><i class="fas fa-film" aria-hidden="true"></i
+            ></span>
+            <span>Videos</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <figure class="image is-16by9">
+      <iframe
+        class="has-ratio"
+        width="640"
+        height="360"
+        src="https://www.youtube.com/embed/OCzzN8VZgfY?si=oRCu4ZXwqIV-kXdj"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </figure>
+  </body>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Terms and Conditions</strong>
+      </p>
+      <p> 
+        <strong>Phone: 083 578 0278</strong>
+      </p>
+    </div>
+  </footer>
 </html>
